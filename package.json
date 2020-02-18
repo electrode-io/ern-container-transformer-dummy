@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Electrode Native Dummy Container Transformer",
   "main": "index.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "keywords": [
     "ern-container-transformer"
   ],
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/electrode-io/ern-container-transformer-dummy.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electrode-io/ern-container-transformer-dummy.git"
   },
   "license": "Apache-2.0"
 }

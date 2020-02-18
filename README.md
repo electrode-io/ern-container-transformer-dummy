@@ -1,20 +1,22 @@
 # Electrode Native Dummy Container Transformer
 
+[![ci][1]][2]
+
 This transformer will just log the configuration it was called with.
 
 It has no use other than showcasing a minimal implementation of an Electrode Native Container transformer, which can be used as a reference to create a Container publiser.
 
 **Requires ern >= 0.21.0**
 
-For example calling `ern transformer-container` using this transformer, as follow :
+For example calling `ern transformer-container` using this transformer, as follow:
 
-```shell 
-$ ern transform-container --containerPath /path/to/android/container --transformer dummy --platform android --extra '{"dummy-key":"dummy-value"}'
+```sh
+ern transform-container --containerPath /path/to/android/container --transformer dummy --platform android --extra '{"dummy-key":"dummy-value"}'
 ```
 
-Will output the following :
+Will output the following:
 
-```
+```text
  ___ _        _               _       _  _      _   _
 | __| |___ __| |_ _ _ ___  __| |___  | \| |__ _| |_(_)_ _____
 | _|| / -_) _|  _| '_/ _ \/ _` / -_) | .` / _` |  _| \ V / -_)
@@ -37,3 +39,6 @@ By the way ... here it is !
   "ernVersion": "1000.0.0"
 }
 ```
+
+[1]: https://github.com/electrode-io/ern-container-transformer-dummy/workflows/ci/badge.svg
+[2]: https://github.com/electrode-io/ern-container-transformer-dummy/actions
