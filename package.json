@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Electrode Native Dummy Container Transformer",
   "main": "index.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
   "keywords": [
     "ern-container-transformer"
   ],
