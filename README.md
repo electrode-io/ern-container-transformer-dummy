@@ -1,5 +1,7 @@
 # Electrode Native Dummy Container Transformer
 
+[![ci][1]][2]
+
 This transformer will just log the configuration it was called with.
 
 It has no use other than showcasing a minimal implementation of an Electrode Native Container transformer, which can be used as a reference to create a Container publiser.
@@ -37,3 +39,6 @@ By the way ... here it is !
   "ernVersion": "1000.0.0"
 }
 ```
+
+[1]: https://github.com/electrode-io/ern-container-transformer-dummy/workflows/ci/badge.svg
+[2]: https://github.com/electrode-io/ern-container-transformer-dummy/actions
