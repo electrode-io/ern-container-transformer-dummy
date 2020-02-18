@@ -6,15 +6,15 @@ It has no use other than showcasing a minimal implementation of an Electrode Nat
 
 **Requires ern >= 0.21.0**
 
-For example calling `ern transformer-container` using this transformer, as follow :
+For example calling `ern transformer-container` using this transformer, as follow:
 
-```shell 
-$ ern transform-container --containerPath /path/to/android/container --transformer dummy --platform android --extra '{"dummy-key":"dummy-value"}'
+```sh
+ern transform-container --containerPath /path/to/android/container --transformer dummy --platform android --extra '{"dummy-key":"dummy-value"}'
 ```
 
-Will output the following :
+Will output the following:
 
-```
+```text
  ___ _        _               _       _  _      _   _
 | __| |___ __| |_ _ _ ___  __| |___  | \| |__ _| |_(_)_ _____
 | _|| / -_) _|  _| '_/ _ \/ _` / -_) | .` / _` |  _| \ V / -_)
